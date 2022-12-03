@@ -7,7 +7,6 @@ counter = 0
 for line in lines:
     firstpart, secondpart = line[:len(line)//2], line[len(line)//2:]
     common_character = ''.join(set(firstpart).intersection(secondpart))
-    #print(common_character)
     counter += points.index(common_character)+1
 print (counter)
 #task 2
