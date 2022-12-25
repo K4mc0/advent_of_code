@@ -81,7 +81,7 @@ def main():
     print("Result for task 1 is", solution(monkeys, 20, True))
     monkeys = iniciate_monkeys()
     start_time = time.time()
-    print("Result for task 2 is", solution(monkeys, 20, False))
+    print("Result for task 2 is", solution(monkeys, 10000, False))
     print("--- %s seconds ---" % (time.time() - start_time))
 
 if __name__ == "__main__":
